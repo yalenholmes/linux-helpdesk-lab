@@ -23,3 +23,17 @@ This project documents a Linux home lab built in Ubuntu using UTM on a Mac host 
 3. Diagnosed issue with `df -h`
 4. Cleaned system using `apt clean` and `apt autoremove`
 5. Documented findings and next steps
+
+## Scripts
+
+### system_health_check.sh
+
+A basic diagnostic script used to collect system information such as:
+
+- uptime
+- disk usage
+- memory usage
+- network configuration
+- running processes
+
+This simulates a quick system health check often performed during troubleshooting.
